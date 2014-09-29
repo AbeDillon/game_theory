@@ -8,7 +8,7 @@ I will detail my (still evolving) vision for the game below and include links to
 > the satisfaction of tossing explosive molotov cocktails into the middle of a horde of zombies, I'd be extatic.
 > So, maybe that's the best place to start.
 >
-> This being an open-source project, it's natural to leverage an open community of crators to build content.
+> This being an open-source project, it's natural to leverage an open community of creators to build content.
 > Not just those who can code, but artists, designers, and even players. With that in mind, it might make
 > more sense to make something based around content creation, like [Minecraft][3]. I definitely think the idea
 > of user-generated content (UGC) should be a major aspect of this game, but how?
