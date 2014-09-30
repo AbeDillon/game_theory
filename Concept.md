@@ -47,17 +47,19 @@ Thoughts on the Engine and Language:
 > out there][9] that I would love to use (or replicate) but that is beyond the forseable scope.
 >
 > I'd like to implement the base logic of the game in Python 3 because of its readability, portability, and lack
-> of noise (like compiler directives, type declaration, and brackets). The trade off with Python is performance,
-> but I view choosing a language for its performance characteristics is a form of pre-optimization. The work flow
-> of building the minimal working system, then itterating, then tuning performance is easy in Python because once
-> you have identified performance bottle-necks there are many tools to optimize the performancethose specific
-> areas after the fact. You can use [Cython][10], [PyPy][11], [Theano][12], and many other tools. I think probably the
-> best practice would be to build a system in Python, then optimize by in-lining [Julia][13] in critical areas.
+> of noise (like compiler directives, type declaration, and brackets, semicolons, etc.). The trade off with Python
+> is performance, but I view choosing a language for its performance characteristics is a form of pre-optimization.
+> The work flow of building the minimal working system, then itterating, then tuning performance is easy in Python.
+> Once you have identified performance bottle-necks there are many tools to optimize the performance of those
+> specific areas after the fact. You can use [Cython][10], [PyPy][11], [Theano][12], and many other tools. I think probably
+> the best practice would be to build a system in Python, then optimize by in-lining [Julia][13] in critical areas.
 > Julia is a language that reads a lot like Python, but performs a lot like C. The kicker is that there are tools
 > that make [in-lining Julia in Python code and Python in Julia code][14] almost seamless.
 >
 > The biggest problem with this plan is that Unity API is C#-based, so either I need to learn C# and abandon my
-> dreams of this project being Python-based, or write some python wrappers for the Unity API.
+> dreams of this project being Python-based or we need to write some Python wrappers for the Unity API. Either way
+> I'll probably have to learn C# (which is not a big deal), however; I stand by my case for making this a
+> predominantly Python-based project.
 
 [8]: http://unity3d.com/    "Unity Engine"
 [9]: https://www.youtube.com/watch?v=_CCZIBDt1uM  "Atomontage Engine"
