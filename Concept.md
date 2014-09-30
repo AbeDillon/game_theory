@@ -29,6 +29,8 @@ I will detail my (still evolving) vision for the game below and include links to
 > single universe helping make in-game content generation viable.
 >
 > All of this requires some discussion and fleshing out.
+>
+> -Abe Dillon
 
 [1]: http://en.wikipedia.org/wiki/Myth:_The_Fallen_Lords  "Myth: The Fallen Lords"
 [2]: http://en.wikipedia.org/wiki/Myth_II:_Soulblighter   "Myth II: Soulblighter"
@@ -37,3 +39,31 @@ I will detail my (still evolving) vision for the game below and include links to
 [5]: http://ltheory.com/       "Limit Theory"
 [6]: http://www.eveonline.com/ "Eve Online"
 [7]: https://www.youtube.com/watch?v=uiYuBrApdyY  "Dust 514"
+
+Thoughts on the Engine and Language:
+
+> I'd rather worry about experimenting with game mechanics than worrying about the details of an engine, so I
+> think we should start things out with [Unity Engine][8] for the mean time. There are some [amazing looking engines
+> out there][9] that I would love to use (or replicate) but that is beyond the forseable scope.
+>
+> I'd like to implement the base logic of the game in Python 3 because of its readability, portability, and lack
+> of noise (like compiler directives, type declaration, and brackets). The trade off with Python is performance,
+> but I view choosing a language for its performance characteristics is a form of pre-optimization. The work flow
+> of building the minimal working system, then itterating, then tuning performance is easy in Python because once
+> you have identified performance bottle-necks there are many tools to optimize the performancethose specific
+> areas after the fact. You can use [Cython][10], [PyPy][11], [Theano][12], and many other tools. I think probably the
+> best practice would be to build a system in Python, then optimize by in-lining [Julia][13] in critical areas.
+> Julia is a language that reads a lot like Python, but performs a lot like C. The kicker is that there are tools
+> that make [in-lining Julia in Python code and Python in Julia code][14] almost seamless.
+>
+> The biggest problem with this plan is that Unity API is C#-based, so either I need to learn C# and abandon my
+> dreams of this project being Python-based, or write some python wrappers for the Unity API.
+
+[8]: http://unity3d.com/    "Unity Engine"
+[9]: https://www.youtube.com/watch?v=_CCZIBDt1uM  "Atomontage Engine"
+[10]: http://cython.org/    "Cython"
+[11]: http://pypy.org/      "PyPy"
+[12]: http://deeplearning.net/software/theano/    "Theano"
+[13]: http://julialang.org/ "Julia Language"
+[14]: http://blog.leahhanson.us/julia-calling-python-calling-julia.html  "Julia-Python interfacing"
+
