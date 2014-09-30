@@ -67,3 +67,25 @@ Thoughts on the Engine and Language:
 [13]: http://julialang.org/ "Julia Language"
 [14]: http://blog.leahhanson.us/julia-calling-python-calling-julia.html  "Julia-Python interfacing"
 
+More details about mechanics:
+
+> I imagine a shared, open world where each person controls a small party instead of a single character. Each character
+> in their party represents an account in a different game. You might download the crafting game, create an account,
+> and start out as a single-person party with a crafter in it. You can play the crafting game and generate resources
+> that help your character advance (like experience) and resources that you can sell (like crafted goods). The catch is
+> that you have to pay NPCs to perform all the other tasks in the game for you (like collecting resources or providing
+> protection or building and managing the town). This represents a resource tax that significantly slows your progress.
+>
+> You can download the RTS game and add a military leader to your group, but when you're logged in to that account, the
+> crafter will output a constant rate of resources based on their level, but they will not gain experience. The bonus is
+> that your RTS character can provide protecton for your crafting character and your crafting character can provide
+> gear and units to your RTS character. You can then team up with a friend playing a city builder and aleviate her need
+> to pay for an NPC army and NPC industry workers. By working together you achive a lot more and accelerate eachothers
+> progression. You build your own guild with its own settlements, industry, boarders, etc.
+>
+> As we build more games, we replace work done by NPCs with work done by players. If your guild has multiple settlements
+> Transporting resources between them might at first involve paying NPC traders, but eventually we release a game like
+> [Escape Velocity][15] (a big inspiration for Eve online) that allows players to take part in trading and fending off
+> pirates.
+
+[15]: https://www.youtube.com/watch?v=gJbuUSSqXJE  "Escape Velocity Nova"
