@@ -1,4 +1,4 @@
 game_theory
 ===========
 
-Undefined video game hobby thing
+Undefined video game collaboration
